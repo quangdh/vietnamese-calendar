@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-calendar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Vietnamese calendar",
   "main": "index.js",
   "scripts": {

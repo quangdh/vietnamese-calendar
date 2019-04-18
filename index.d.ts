@@ -1,2 +1,2 @@
-export function convertLunar2Solar(): any[];
-export function convertSolar2Lunar(): any[];
+export function convertLunar2Solar(lunarDay: number, lunarMonth: number, lunarYear: number, lunarLeap: number, timeZone: number): any[];
+export function convertSolar2Lunar(dd: number, mm: number, yy: number, timezone: number): any[];
