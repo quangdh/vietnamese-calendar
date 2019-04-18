@@ -218,7 +218,7 @@ function convertLunar2Solar(lunarDay, lunarMonth, lunarYear, lunarLeap, timeZone
 	return jdToDate(monthStart+lunarDay-1);
 }
 
-exports.module = {
+module.exports = {
     convertLunar2Solar,
     convertSolar2Lunar
 }
