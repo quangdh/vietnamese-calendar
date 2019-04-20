@@ -2,3 +2,9 @@ export function convertLunar2Solar(lunarDay: number, lunarMonth: number, lunarYe
 export function convertSolar2Lunar(dd: number, mm: number, yy: number, timezone: number): any[];
 export function jdFromDate(dd: number, mm: number, yy: number): number;
 export function jdToDate(jd: number): any[];
+export function NewMoon(k: any): any;
+export function SunLongitude(k: any): any;
+export function getSunLongitude(dayNumber: any, timeZone: any): any;
+export function getNewMoonDay(k: any, timeZone: any): any;
+export function getLunarMonth11(yy: any, timeZone: any): any;
+export function getLeapMonthOffset(a11: any, timeZone: any): any;

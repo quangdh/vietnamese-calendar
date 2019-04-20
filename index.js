@@ -222,5 +222,11 @@ module.exports = {
     convertLunar2Solar,
 	convertSolar2Lunar,
 	jdFromDate,
-	jdToDate
+	jdToDate,
+	NewMoon,
+	SunLongitude,
+	getSunLongitude,
+	getNewMoonDay,
+	getLunarMonth11,
+	getLeapMonthOffset
 }
